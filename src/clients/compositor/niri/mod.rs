@@ -217,4 +217,3 @@ impl WorkspaceClient for Client {
         rx
     }
 }
-}
