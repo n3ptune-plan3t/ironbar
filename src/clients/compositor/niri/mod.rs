@@ -3,7 +3,6 @@ use crate::channels::SyncSenderExt;
 use crate::clients::compositor::Visibility;
 use crate::{arc_rw, read_lock, spawn, write_lock};
 use connection::{Action, Connection, Event, Request, Response, Window};
-use niri_ipc::WorkspaceReferenceArg;
 use std::sync::{Arc, RwLock};
 use tokio::sync::broadcast;
 use tracing::{debug, error};
